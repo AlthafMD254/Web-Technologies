@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<recipes>
+<recipe>
+<name>Chicken Pasta</name>
+<category>Dinner</category>
+<rating>4</rating>
+<description>Creamy Italian chicken pasta.</description>
+</recipe>
+
+
+<recipe>
+<name>French Toast</name>
+<category>Breakfast</category>
+<rating>5</rating>
+<description>Classic golden French toast.</description>
+</recipe>
+
+
+<recipe>
+<name>Veg Salad</name>
+<category>Lunch</category>
+<rating>3</rating>
+<description>Healthy mixed vegetable salad.</description>
+</recipe>
+</recipes>

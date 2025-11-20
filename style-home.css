@@ -1,0 +1,197 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    color: #222;
+}
+
+/* HEADER */
+header {
+    background: #2c2c2c;
+    color: #fff;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: #fff;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+header nav a:hover,
+header nav a.active {
+    color: #ff7f50;
+    text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+    background-image: url("assets/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+}
+
+.hero-inner {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 50px 40px;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: white;
+}
+
+.hero-inner h2 {
+    font-size: 34px;
+    margin-bottom: 12px;
+}
+
+.hero-inner p {
+    font-size: 18px;
+    opacity: 0.85;
+}
+
+/* FILTER CONTROLS */
+.controls {
+    width: 90%;
+    max-width: 900px;
+    margin: 25px auto;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.controls input,
+.controls select {
+    padding: 12px 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    flex: 1;
+}
+
+.controls input:focus,
+.controls select:focus {
+    outline: none;
+    border-color: #ff7f50;
+    box-shadow: 0 0 5px rgba(255,127,80,0.4);
+}
+
+button {
+    padding: 12px 22px;
+    background: #ff7f50;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.25s;
+}
+
+button:hover {
+    background: #ff5722;
+}
+
+/* RECIPE COUNT */
+.recipe-count {
+    width: 90%;
+    max-width: 900px;
+    margin: 10px auto 20px auto;
+    font-size: 18px;
+    color: #555;
+    font-weight: 500;
+}
+
+/* RECIPE LIST (fancy cards stacked vertically) */
+.recipe-list {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* RECIPE CARD */
+.fancy-card {
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 5px solid #ff7f50;
+}
+
+.fancy-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+}
+
+.fancy-card h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.fancy-card .recipe-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #777;
+}
+
+.fancy-card .dot {
+    font-weight: bold;
+    color: #bbb;
+}
+
+.fancy-card p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.fancy-card .view-btn {
+    padding: 10px 22px;
+    background: #2c2c2c;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.25s ease;
+}
+
+.fancy-card .view-btn:hover {
+    background: #ff7f50;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px 0;
+    background: #f1eee8;
+    font-size: 15px;
+    color: #555;
+}
